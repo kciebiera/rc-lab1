@@ -3,6 +3,15 @@ Todays lab contains of two parts. First on the blackboard and second in MuJoCo s
 
 # Blackboard
 
+1. Create matrix M1 that rotates a 3D space around the x axis by 90 degrees.
+2. Create matrix M2 that rotates a 3D space around the y axis by 90 degrees.
+3. What is the result of M1 * M2?
+4. What is the result of M2 * M1?
+5. Create matrix M3 that moves a 3D space by 1 unit along the x axis and then rotates it around the y axis by 90 degrees.
+6. Create matrix M4 that rotates a 3D space around the y axis by 90 degrees and then moves it by 1 unit along the x axis.
+7. What is the result of M3 * M4?
+8. What is the result of M4 * M3?
+
 
 # MuJoCo
 
