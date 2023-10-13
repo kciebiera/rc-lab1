@@ -3,6 +3,8 @@ Todays lab contains of two parts. First on the blackboard and second in MuJoCo s
 
 # Blackboard
 
+Read: https://mathworld.wolfram.com/RodriguesRotationFormula.html
+
 1. Create matrix M1 that rotates a 3D space around the x axis by 90 degrees.
 2. Create matrix M2 that rotates a 3D space around the y axis by 90 degrees.
 3. What is the result of M1 * M2?
@@ -11,6 +13,15 @@ Todays lab contains of two parts. First on the blackboard and second in MuJoCo s
 6. Create matrix M4 that rotates a 3D space around the y axis by 90 degrees and then moves it by 1 unit along the x axis.
 7. What is the result of M3 * M4?
 8. What is the result of M4 * M3?
+9. Not using Rodrigues formula, create a matrix M5 that rotates a 3D space around the (1, 1, 0) vector by any given number of degrees.
+10. Using Rodrigues formula, create a matrix M6 that rotates a 3D space around the (1, 1, 1) vector by 90 degrees.
+11. We have following rotation matrix:
+```python
+r = [[0.966496, -0.214612, 0.14081],
+     [0.241415, 0.946393, -0.214612],
+     [-0.0872034, 0.241415, 0.966496]]
+```
+What is the axis of rotation and the angle of rotation of matrix r?
 
 
 # MuJoCo
